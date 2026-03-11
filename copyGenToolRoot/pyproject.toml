@@ -1,0 +1,17 @@
+[build-system]
+requires = ['setuptools>=61']
+
+[project]
+name = "file-copy-gen-tool"
+version= "0.1.0"
+description = "CLI Tool to create _copy files in folders"
+authors = [{ name = "The Monster hunter", email = "themonsterhunter@mailinator.org"}]
+dependencies = [
+    "typer[all]"
+]
+requires-python = ">=3.10"
+readme = "README.md"
+license = { text = "MIT" }
+
+[project.scripts]
+copygentool = "copyGenTool.cli:app"
