@@ -20,5 +20,5 @@ copygentool --path <path-to-the-folder> --verbose <optional-for-logging-informat
 Alternatively you can run only the cli.py file as so 
 
 cd into project root on shell then run
->>> cd ./copyGenToolRoot/
->>> python3 -m copyGenTool.cli --path <path-to-the-folder> --verbose <optional-for-logging-information> --dry-run <Displays-a-log-of-files-to-be-created-omit-to-create-file-copies>
+### >>> cd ./copyGenToolRoot/
+### >>> python3 -m copyGenTool.cli --path <path-to-the-folder> --verbose <optional-for-logging-information> --dry-run <Displays-a-log-of-files-to-be-created-omit-to-create-file-copies>
